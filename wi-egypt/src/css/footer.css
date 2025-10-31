@@ -1,0 +1,117 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'Baisteach';
+    src: url(src/assets/Baisteach.ttf);
+}
+
+body {
+    font-family: 'Baisteach';
+    text-transform: uppercase; 
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+
+footer {
+    padding: 40px 50px;
+    background-color: #f7f7f7;
+    border-top: 2px solid #D6A359;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 40px;
+}
+
+
+.sphinx-crop {
+  width: 350px;          
+  height: 150px;         
+}
+
+.sphinx-crop img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer-description {
+    max-width: 400px;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.3;
+}
+
+.social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.social-icon:hover {
+    background-color: #D6A359;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 30px;
+    padding-right: 10px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #000000af;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    color: #000000;
+}

@@ -1,0 +1,107 @@
+.signin-container {
+  max-width: 400px;
+  margin:  auto;
+  padding: 40px 30px;
+  border: 1px solid #d6a359;
+  border-radius: 15px;
+  background-color: #f7f7f7;
+  box-shadow: 0 4px 10px #d6a359;
+}
+
+.ship{
+width: 250px;
+height: 170px;
+margin-right: 150px;
+display: flex;
+justify-self: center;
+}
+
+.ship img{
+    width: 350px;
+    height: 250px;
+
+}
+
+.signin-container h2 {
+  text-align: center;
+  color: #8b4513;
+  margin: 20px;
+}
+
+.field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.field label {
+  display: block;
+  font-weight: bold;
+  color: #8b4513;
+  margin-bottom: 8px;
+}
+
+.field input{
+  width: 90%;
+  padding: 12px 15px;
+  border: 2px solid #d6a359;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #fff;
+}
+
+
+.email-field input:focus,
+.password-field input:focus {
+  border-color: #c9963f;
+}
+
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.form-links p{
+  color: black;
+  font-size: 10px;
+  letter-spacing: 0.2px;
+}
+.form-links a {
+  text-decoration: none;
+  color: #66b3a1;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-links a:hover {
+  color: #000000;
+}
+
+.button-field {
+  text-align: center;
+}
+
+.otp-btn{
+  background-color: #64b0ab;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  margin-top: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.signin1-btn {
+  background-color: #64b0ab;
+  color: white;
+  border: none;
+  padding: 12px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.signin1-btn:hover {
+  background-color: #000000;
+}
