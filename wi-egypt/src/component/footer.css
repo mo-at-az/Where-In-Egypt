@@ -1,0 +1,26 @@
+
+  footer{
+      position: absolute;
+    bottom: 0px;
+    width: 98%;
+    background-color: #F7F7F7;
+    margin-top: 30px;
+    padding-left: 20px;
+  }
+  .ftr-img{
+    position: absolute;
+    left: 0px;
+    top: -70%;
+    width: 376px;
+  }
+  .ftr1{
+    padding-top: 50px;
+  }
+  .socialdiv{
+    text-align: center;
+  }
+  .ftrline{
+    width: 88%; 
+    margin-left: 90px;
+    margin-top: 70px;
+  }
