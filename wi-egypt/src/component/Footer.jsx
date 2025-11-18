@@ -9,12 +9,12 @@ function Footer() {
     <>
     <footer className="position-relative ">
 
-<div className="row">
-  <div className="ftr1 col-6">
-    <img className="ftr-img" src={abohol} alt=""/>
+<div className=" naho">
+          <img className="ftr-img" src={abohol} alt=""/>
+  <div className="ftr1 ">
     <p>Discover Egypt your way with our customized travel plans. From world famous landmarks to hidden gems, we help you create journeys that match your budget and interests. Start planning today and make your adventure unforgettable.</p>
   </div>
-  <div className="col-6 socialdiv">
+  <div className=" socialdiv">
     <h3>Follow us</h3>
     <div className="d-inline ">  
         <img src={face} alt="facebook" />
@@ -24,11 +24,11 @@ function Footer() {
   </div>
 </div>
 <hr className="ftrline"/>
-<div className="row">
-  <div className="col-6">
+<div className="naho">
+  <div className="">
     <p> &copy; Copyright 2025 | where in egypt</p>
   </div>
-  <div className="col-6 text-center">
+  <div className=" text-center pe-4">
     <a href="#" className="d-inline me-5">ABOUT</a>
     <a href="#" className="d-inline">CONTACT</a>
   </div>

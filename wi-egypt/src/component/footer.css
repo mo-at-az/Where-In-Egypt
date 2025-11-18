@@ -2,25 +2,34 @@
   footer{
       position: absolute;
     bottom: 0px;
-    width: 98%;
+    width:99vw;
     background-color: #F7F7F7;
     margin-top: 30px;
     padding-left: 20px;
+    /* overflow:hidden; */
   }
   .ftr-img{
     position: absolute;
     left: 0px;
-    top: -70%;
+    bottom:235px ;
     width: 376px;
+    z-index: 10;
   }
   .ftr1{
     padding-top: 50px;
+    max-width: 700px;
   }
   .socialdiv{
     text-align: center;
+        padding-right: 20px;
   }
   .ftrline{
     width: 88%; 
     margin-left: 90px;
     margin-top: 70px;
+  }
+  .naho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
