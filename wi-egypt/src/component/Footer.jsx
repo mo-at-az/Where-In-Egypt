@@ -3,6 +3,8 @@ import abohol from'../assets/abohol.png'
 import face from'../assets/facebook.png'
 import insta from'../assets/instagram.png'
 import tik from'../assets/tiktok.png'
+import { Link } from 'react-router-dom';
+
 function Footer() {
 
   return (
@@ -29,8 +31,8 @@ function Footer() {
     <p> &copy; Copyright 2025 | where in egypt</p>
   </div>
   <div className=" text-center pe-4">
-    <a href="#" className="d-inline me-5">ABOUT</a>
-    <a href="#" className="d-inline">CONTACT</a>
+    <Link to="/about" className="d-inline me-5">ABOUT</Link>
+    <Link to="/contact" className="d-inline">CONTACT</Link>
   </div>
 </div>
 </footer>

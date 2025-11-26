@@ -1,4 +1,4 @@
-import '/src/components/contact&about.css'
+import '../component/contact&about.css'
 
 
 function Contact () {

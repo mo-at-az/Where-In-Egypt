@@ -12,11 +12,12 @@ import pyr from'../assets/pyr.png'
 import brwaz from'../assets/brwaz.png'
 import abosmpl from'../assets/abosmpl.png'
 import Citymincrd from './Citymincrd'
-import Button from './button'
-import Trendcrd from './trendcrd'
-
-function Center({places,trndy,changemaincity}) {
-
+import Button from './Button'
+import Trendcrd from './Trendcrd'
+import { useOutletContext } from "react-router-dom";
+// {places,trndy,changemaincity}
+function Center() {
+const { places, trndy, changemaincity } = useOutletContext();
   return (
     <>
     
@@ -66,7 +67,7 @@ function Center({places,trndy,changemaincity}) {
       <hr className="thick-line"/>
       <div className="container-fluid d-flex justify-content-between artdata">
 
-{/*         <div>
+  {/*         <div>
             <article className="city-places  ms-5"> 
               <img src={allcities.image} alt=""/>
               <h2>{allcities.name}</h2>

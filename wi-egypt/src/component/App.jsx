@@ -13,6 +13,7 @@ import abosmpl from'../assets/abosmpl.png'
 import gem from'../assets/gem.jpg'
 import tahmes from'../assets/tahmes.jpg'
 import slaheldin from'../assets/slaheldin.jpeg'
+import { Outlet } from "react-router-dom";
 
 
  const allcities = [
@@ -56,9 +57,8 @@ useEffect( ()=>{
   return (
     <>
     <Nav></Nav>
-
-    <Center places={cities} trndy={trndy} changemaincity={sethomecity} > </Center>
-
+    {/* <Center places={cities} trndy={trndy} changemaincity={sethomecity} > </Center> */}
+    <Outlet context={{places:cities, trndy:trndy, changemaincity:sethomecity }} />
     <Footer></Footer>
     </>
   )
