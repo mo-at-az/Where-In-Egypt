@@ -1,6 +1,7 @@
 import Logo from "../assets/Logo.png"
 import Sign from "../assets/user-interface 1.png"
-import'./nav.css'
+// import'./nav.css'
+import'../styles/nav.css'
 import { Link } from 'react-router-dom';
 
 function Nav() {

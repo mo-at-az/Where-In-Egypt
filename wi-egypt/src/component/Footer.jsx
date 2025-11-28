@@ -1,4 +1,5 @@
-import'./footer.css'
+// import'./footer.css'
+import'../styles/footer.css'
 import abohol from'../assets/abohol.png'
 import face from'../assets/facebook.png'
 import insta from'../assets/instagram.png'

@@ -1,4 +1,5 @@
-import'./center.css'
+// import'./center.css'
+import'../styles/center.css'
 import unnamed from'../assets/unnamed 1.png'
 import rm1 from'../assets/rm1 1.png'
 import sh1 from'../assets/sh1 1.png'
@@ -46,7 +47,7 @@ const { places, trndy, changemaincity } = useOutletContext();
       </div>
 
       <div className="main-body">
-            <a href="#"><img src={lftarr}  className="arrow" alt=""/></a>
+            {/* <a href="#"><img src={lftarr}  className="arrow" alt=""/></a> */}
             <div className="nxtbtn">
             <Button content={"CAIRO"} change={changemaincity} ></Button>
             </div>
@@ -62,7 +63,7 @@ const { places, trndy, changemaincity } = useOutletContext();
              <div className="nxtbtn">
                 <Button content={"LUXOR"} change={changemaincity} ></Button>
             </div>
-            <a href="#"><img src={rghtarr} className="arrow" alt=""/></a>     
+            {/* <a href="#"><img src={rghtarr} className="arrow" alt=""/></a>      */}
       </div>
       <hr className="thick-line"/>
       <div className="container-fluid d-flex justify-content-between artdata">

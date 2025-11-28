@@ -4,7 +4,8 @@ import { Search, Filter, Sun, BookOpen, Umbrella } from 'lucide-react';
 import DestinationCard from './DestinationCard';
 import FilterSidebar from './FilterSidebar';
 import { DESTINATIONS_DATA } from './data';
-import './Destinations.css'; 
+// import './Destinations.css'; 
+import '../styles/Destinations.css'; 
 
 export default function Destinations() {
   useEffect(() => {

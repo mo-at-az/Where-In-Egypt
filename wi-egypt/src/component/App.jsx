@@ -23,11 +23,11 @@ import { Outlet } from "react-router-dom";
   
   {"id":3,"name":"Roman museum","description":"Graeco-Roman Museum showcases a rich collection of artifacts from Egypt’s Greco-Roman period. Established in 1892","image":alex3,"city":"ALEXANDRIA"},
   
-  {"id":4,"name":"slaheldin Citadel","description":"loremasdansjkdansd","image":slaheldin,"city":"CAIRO"},
+  {"id":4,"name":"Slaheldin Citadel","description":"A medieval Islamic-era fortification in Cairo, famous for its panoramic views of the city and the stunning Mosque of Muhammad Ali.","image":slaheldin,"city":"CAIRO"},
   
-  {"id":5,"name":"tahmes","description":"sgjkdhdsfjkghjkdfghkjdfhgkjdhfgjsdlkjhgklsdjfhgkldfg","image":tahmes,"city":"CAIRO"},
+  {"id":5,"name":"The Egyptian Museum ","description":"The Egyptian Museum in Tahrir is one of the world’s most important archaeological museums, housing the largest collection of ancient Egyptian","image":tahmes,"city":"CAIRO"},
   
-  {"id":6,"name":"gem","description":"loremdfjhskjdfhnjksbahgjfdsbnfdmgbsdjkfghsdjskjuhyrgusrhgusdrhglurhgdkfjghnkjdfgg","image":gem,"city":"CAIRO"}
+  {"id":6,"name":"Grand Egyptian Museum","description":"The Grand Egyptian Museum (GEM) is a state-of-the-art museum located near the Giza Pyramids, designed to be the world’s largest archaeological museum","image":gem,"city":"CAIRO"}
 ]
 
 
