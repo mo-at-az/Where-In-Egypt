@@ -11,7 +11,7 @@ function Contact () {
   <h2>Contact</h2>
 <section class="contact">
 
-  <form action="#" method="post">
+  <form  method="post">
 
     <section class="section">
       <label for="name">Name</label>
@@ -29,7 +29,7 @@ function Contact () {
     </section>
 
     <section class="button-section">
-      <button type="submit" class="send-btn">Send</button>
+      <button type="reset" class="send-btn" >Send</button>
     </section>
 
   </form>

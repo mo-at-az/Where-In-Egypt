@@ -22,6 +22,7 @@ nav{
 li a{
    color: #D6A359 !important ; 
    font-size: 25px !important;
+   margin-right: 10px !important;
 }
 .dvs{
     width: 200px;

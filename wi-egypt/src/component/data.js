@@ -34,6 +34,7 @@ export const DESTINATIONS_DATA = [
     image: greatPyramid,
     description: "The oldest of the Seven Wonders of the Ancient World. Experience the grandeur of Khufu's pyramid and the Sphinx.",
   },
+
   {
     id: 2,
     name: "Citadel of Qaitbay",
@@ -46,6 +47,7 @@ export const DESTINATIONS_DATA = [
     image: qaitbay,
     description: "A 15th-century defensive fortress located on the Mediterranean coast, built upon the ruins of the Lighthouse of Alexandria.",
   },
+
   {
     id: 3,
     name: "Karnak Temple Complex",
@@ -58,6 +60,7 @@ export const DESTINATIONS_DATA = [
     image: karnak,
     description: "The largest religious building ever constructed. Walk through the Hypostyle Hall with its 134 massive sandstone columns.",
   },
+
   {
     id: 4,
     name: "Philae Temple",
@@ -70,6 +73,7 @@ export const DESTINATIONS_DATA = [
     image: philae,
     description: "Dedicated to the goddess Isis, this temple was dismantled and relocated to Agilkia Island to save it from flooding.",
   },
+  
   {
     id: 9,
     name: "Abu Simbel Temples",
