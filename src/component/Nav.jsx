@@ -30,12 +30,7 @@ function Nav() {
           </ul>
         </div>
       </div>
-      <div className="dvs">
-        <Link to="/login">
-          <img src={Sign} alt="" />
-        <p className="sgnin">Sign IN</p>
-              </Link>
-      </div>
+      
     </nav>
     </>
   )

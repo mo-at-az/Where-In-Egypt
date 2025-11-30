@@ -8,7 +8,7 @@ import About from './About.jsx'
 import Contact from './Contact.jsx'
 import Tripplanner from './tripplanner.jsx'
 import Destinations from './Destinations.jsx'
-import Login from './login.jsx'
+
 
 const routes = createBrowserRouter([
     { path: '/', element: <App />, children: [
@@ -17,7 +17,6 @@ const routes = createBrowserRouter([
         { path: '/contact', element: <Contact /> },
         { path: '/tripplanner', element: <Tripplanner /> },
         { path: '/destinations', element: <Destinations /> },
-        { path: '/login', element: <Login /> },
     ] }
     
 ]);
