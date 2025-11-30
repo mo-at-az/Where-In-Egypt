@@ -6,7 +6,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Center from './Center.jsx'
 import About from './About.jsx'
 import Contact from './Contact.jsx'
-import Tripplanner from './tripplanner.jsx'
+import Tripplanner from './Tripplanner.jsx'
 import Destinations from './Destinations.jsx'
 
 
